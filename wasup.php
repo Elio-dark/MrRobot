@@ -12,3 +12,10 @@ function cantar() {
 	echo $nome;
 	return false;
 }
+
+function cantar() {
+	// ESCOPO LOCAL
+	global $nome;
+	echo $nome;
+	return false;
+}
