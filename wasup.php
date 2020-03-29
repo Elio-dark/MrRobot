@@ -5,9 +5,10 @@ function exibir() {
 	echo $nome;
 }
 
-function dancar() {
+
+function cantar() {
 	// ESCOPO LOCAL
 	global $nome;
 	echo $nome;
-	return true;
+	return false;
 }
